@@ -155,7 +155,7 @@
 				</section>
 
 				<section>
-					<p>Aside: Ember-Data and EPF use this:</p>
+					<p>Aside: Technique used by Ember-Data and EPF:</p>
 					<pre><code>
 App.PostSerializer = DS.RESTSerializer.extend({});
 					</code></pre>
@@ -172,7 +172,7 @@ App.PostSerializer = DS.RESTSerializer.extend({});
 
 				<section>
 					<h2>Think Outside the Box</h2>
-					<p>Use a custom type.</p>
+					<p>Get crazy, use a custom type.</p>
 					<aside class="notes">
 						CODE: (tag: 6-typification)
 						Create new input container type.
@@ -183,9 +183,9 @@ App.PostSerializer = DS.RESTSerializer.extend({});
 				<section>
 					<h2>Summary</h2>
 					<ul>
-						<li>Use initializers</li>
-						<li>Rely on the container</li>
-						<li>Use custom types (sometimes)</li>
+						<li><strong>Use the container</strong>
+						<li>Rely on initializers</li>
+						<li>Use custom types (sparingly)</li>
 						<li>Assume no prototype extensions</li>
 						<li>Libraries need more first-class support</li>
 					</ul>
@@ -201,7 +201,7 @@ App.PostSerializer = DS.RESTSerializer.extend({});
 				</section>
 
 				<section>
-					<h2>The Future</h2>
+					<h2>The (Hopefully Not-Distant) Future</h2>
 					<ul>
 						<li>Custom Namespaces</li>
 						<li>ES6 Modules Everywhere</li>
@@ -210,12 +210,12 @@ App.PostSerializer = DS.RESTSerializer.extend({});
 
 				<section>
 					<h1>THE END</h1>
-					<h3>BY Gordon L. Hempton / codebrief.com</h3>
+					<h3>BY Gordon L. Hempton / <a href="http://codebrief.com">codebrief.com</a></h3>
 				</section>
 
 				<section>
 					<h1>PS: We are hiring!</h1>
-					<h3>getoutreach.com</h3>
+					<h3><a href="mailto:jobs@getoutreach.com">jobs@getoutreach.com</a></h3>
 				</section>
 
 			</div>
@@ -235,8 +235,8 @@ App.PostSerializer = DS.RESTSerializer.extend({});
 				history: true,
 				center: true,
 
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+				theme: Reveal.getQueryHash().theme || 'beige', // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
 				// Parallax scrolling
 				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
